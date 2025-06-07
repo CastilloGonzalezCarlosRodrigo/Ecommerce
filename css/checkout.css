@@ -1,0 +1,34 @@
+.checkout-container,
+.confirmation-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.checkout-summary ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.checkout-summary li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout-summary .total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.checkout-form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Colores suaves y neutros */
+  :root {
+    --color-primario: #6c63ff;
+    --color-secundario: #f0f2ff;
+    --color-texto: #333;
+    --color-blanco: #fff;
+    --color-acento: #8e8ef7;
+    --color-footer: #f5f5f5;
+  }
+  
+  /* Contenedor centrado */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Header */
+  .header {
+    background-color: var(--color-blanco);
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    height: 50px;
+    vertical-align: middle;
+  }
+  
+  nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: var(--color-texto);
+    font-weight: 600;
+    padding: 0.3rem 0.5rem;
+    transition: color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .nav-links li a:hover,
+  .nav-links li a.active {
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+  }
+  
+  /* Main hero */
+  .main-content {
+    margin: 3rem 0;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: var(--color-primario);
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(108, 99, 255, 0.4);
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-acento);
+    box-shadow: 0 8px 20px rgba(142, 142, 247, 0.6);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: var(--color-footer);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    margin-top: 4rem;
+  }
+  
